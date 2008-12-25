@@ -1,0 +1,6 @@
+category: X11
+requires: cygwin libecore0 libefreet0
+sdesc: "Enlightenment freedesktop.org spec library (utilities)"
+ldesc: "An implementation of several specifications from freedesktop.org
+intended for use in Enlightenment DR17 (e17) and other applications
+using the Enlightenment Foundation Libraries (EFL)."

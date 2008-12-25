@@ -1,0 +1,11 @@
+--- origsrc/efreet-0.5.0.050/src/lib/Makefile.am	2008-08-26 11:25:42.000000000 -0500
++++ src/efreet-0.5.0.050/src/lib/Makefile.am	2008-12-25 02:42:05.849875000 -0600
+@@ -57,7 +57,7 @@
+ $(EFREETTRASHSOURCES)
+ 
+ 
+-installed_headersdir = $(prefix)/include/efreet
++installed_headersdir = $(includedir)/efreet
+ installed_headers_DATA = $(EFREETHEADERS) $(EFREETMIMEHEADERS) $(EFREETTRASHHEADERS)
+ 
+ libefreet_la_LIBADD = @ECORE_LIBS@

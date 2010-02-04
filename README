@@ -10,20 +10,22 @@ following specifications are included:
   o Menu
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libecore0-0.9.9.050-1
+  cygwin-1.7.1-1
+  libecore05-0.9.9.063-1
+  libeina05-0.9.9.063-1
+  libgcc1-4.3.4-3
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
-  binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  autoconf2.5-2.65-1
+  automake1.10-1.10.3-1
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
+  libtool-2.2.7a-15
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -35,79 +37,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack efreet-0.5.0.050-X-src.tar.bz2
+  unpack efreet-0.5.0.063-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./efreet-0.5.0.050-X.cygport all
+  cygport ./efreet-0.5.0.063-X.cygport all
 
 This will create:
-  /usr/src/efreet-0.5.0.050-X-src.tar.bz2
-  /usr/src/efreet-0.5.0.050-X.tar.bz2
-  /usr/src/libefreet-devel-0.5.0.050-X.tar.bz2
-  /usr/src/libefreet0-0.5.0.050-X.tar.bz2
+  /usr/src/efreet-0.5.0.063-X-src.tar.bz2
+  /usr/src/efreet-0.5.0.063-X.tar.bz2
+  /usr/src/libefreet-devel-0.5.0.063-X.tar.bz2
+  /usr/src/libefreet0-0.5.0.063-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-(efreet)
-  /usr/bin/efreet_alloc.exe
-  /usr/bin/efreet_cache_test.exe
-  /usr/bin/efreet_menu_alloc.exe
-  /usr/bin/efreet_spec_test.exe
-  /usr/bin/efreet_test.exe
-  /usr/share/doc/efreet-0.5.0.050/AUTHORS
-  /usr/share/doc/efreet-0.5.0.050/COPYING
-  /usr/share/doc/efreet-0.5.0.050/INSTALL
-  /usr/share/doc/efreet-0.5.0.050/README
-  /usr/share/doc/efreet-0.5.0.050/TODO
-  /usr/share/efreet/test/entry
-  /usr/share/efreet/test/entry.png
-  /usr/share/efreet/test/long.ini
-  /usr/share/efreet/test/preferences.menu
-  /usr/share/efreet/test/sub/test.desktop
-  /usr/share/efreet/test/test.desktop
-  /usr/share/efreet/test/test.ini
-  /usr/share/efreet/test/test.menu
-  /usr/share/efreet/test/test_garbage
-  /usr/share/efreet/test/test_menu_slash_bad.menu
-  /usr/share/efreet/test/test_type.desktop
-
-(libefreet0)
-  /usr/bin/cygefreet-0.dll
-  /usr/bin/cygefreet_mime-0.dll
-  /usr/bin/cygefreet_trash-0.dll
-
-(libefreet-devel)
-  /usr/include/enlightenment/efreet/Efreet.h
-  /usr/include/enlightenment/efreet/Efreet_Mime.h
-  /usr/include/enlightenment/efreet/Efreet_Trash.h
-  /usr/include/enlightenment/efreet/efreet_base.h
-  /usr/include/enlightenment/efreet/efreet_desktop.h
-  /usr/include/enlightenment/efreet/efreet_icon.h
-  /usr/include/enlightenment/efreet/efreet_ini.h
-  /usr/include/enlightenment/efreet/efreet_menu.h
-  /usr/include/enlightenment/efreet/efreet_uri.h
-  /usr/include/enlightenment/efreet/efreet_utils.h
-  /usr/lib/libefreet.a
-  /usr/lib/libefreet.dll.a
-  /usr/lib/libefreet.la
-  /usr/lib/libefreet_mime.a
-  /usr/lib/libefreet_mime.dll.a
-  /usr/lib/libefreet_mime.la
-  /usr/lib/libefreet_trash.a
-  /usr/lib/libefreet_trash.dll.a
-  /usr/lib/libefreet_trash.la
-  /usr/lib/pkgconfig/efreet-mime.pc
-  /usr/lib/pkgconfig/efreet-trash.pc
-  /usr/lib/pkgconfig/efreet.pc
-
-------------------
-
 Port Notes:
 
------ version 0.5.0.050-1 -----
+----- version 0.5.0.063-1 -----
 Initial release for Cygwin.
 
 

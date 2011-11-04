@@ -1,5 +1,5 @@
 category: X11
-requires: libefreet05 libecore-devel libeina-devel
+requires: libefreet1 libecore-devel libeet-devel libeina-devel
 external-source: efreet
 sdesc: "Enlightenment freedesktop.org spec library (development)"
 ldesc: "An implementation of several specifications from freedesktop.org

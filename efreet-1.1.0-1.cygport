@@ -1,8 +1,0 @@
-DESCRIPTION="Enlightenment library for Freedesktop.org specs"
-HOMEPAGE="http://www.enlightenment.org/"
-SRC_URI="http://download.enlightenment.org/releases/${P}.tar.bz2"
-
-PKG_NAMES="${PN} libefreet1 libefreet-devel"
-efreet_CONTENTS="usr/bin/*.exe usr/share/"
-libefreet1_CONTENTS="usr/bin/*-1.dll usr/lib/efreet/"
-libefreet_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"

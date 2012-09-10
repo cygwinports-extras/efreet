@@ -1,7 +1,0 @@
-category: X11
-requires: libecore1 libeet1 libeina1
-external-source: efreet
-sdesc: "Enlightenment freedesktop.org spec library (runtime)"
-ldesc: "An implementation of several specifications from freedesktop.org
-intended for use in Enlightenment DR17 (e17) and other applications
-using the Enlightenment Foundation Libraries (EFL)."
